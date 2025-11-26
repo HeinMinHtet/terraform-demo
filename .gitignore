@@ -1,0 +1,23 @@
+# Local .terraform directories (plugins and modules)
+**/.terraform/*
+
+# .tfstate files (NEVER commit these)
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Exclude all .tfvars files (Likely contain secrets/passwords)
+*.tfvars
+*.tfvars.json
+
+# Ignore override files (Used for local overrides)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore plan output files
+*.tfplan
