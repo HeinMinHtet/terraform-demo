@@ -6,7 +6,3 @@ data "aws_vpc" "main" {
   }
 }
 
-# 2. Fetch Subnets from that VPC (Needed if you want to add Endpoints later)
-
-
-# 3. Create the ECR Repositories

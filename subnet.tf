@@ -10,3 +10,10 @@ data "aws_subnets" "private" {
     values = ["Private"]
   }
 }
+
+data "aws_subnets" "main" {
+  filter {
+    name   = "vpc-id"
+    values = [data.aws_vpc.main.id]
+  }
+}
